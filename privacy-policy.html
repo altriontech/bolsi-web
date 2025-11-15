@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Política de Privacidad de Bolsi. Descubre cómo protegemos tus datos personales y financieros." />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href="https://bolsi.altrion-tech.com/privacy-policy.html" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Política de Privacidad - Bolsi" />
+	<meta property="og:description" content="Conoce cómo Bolsi protege tu información personal y financiera." />
+	<meta property="og:url" content="https://bolsi.altrion-tech.com/privacy-policy.html" />
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Política de Privacidad - Bolsi" />
+	<meta name="twitter:description" content="Conoce cómo Bolsi protege tu información personal y financiera." />
+	
+	<title>Política de Privacidad - Bolsi</title>
+	
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+	
+	<link rel="stylesheet" href="assets/css/styles.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap-custom.css" />
+	<style>
+		:root {
+			--brand-primary: #0b80bd;
+			--brand-secondary: #ff8a3c;
+		}
+		
+		/* Navbar styles */
+		.navbar.fixed-top {
+			background: rgba(253, 252, 255, 0.95);
+			backdrop-filter: blur(16px);
+			border-bottom: 1px solid rgba(31, 22, 80, 0.08);
+			box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+		}
+		
+		.privacy-hero {
+			background: linear-gradient(135deg, var(--brand-primary), #0c92d1);
+			color: white;
+			padding: 8rem 0 5rem;
+			margin-top: 80px;
+			text-align: center;
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.privacy-hero::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: 
+				radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+				radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+			animation: float 8s ease-in-out infinite;
+		}
+		
+		@keyframes float {
+			0%, 100% {
+				transform: scale(1) translate(0, 0);
+				opacity: 1;
+			}
+			50% {
+				transform: scale(1.05) translate(2%, -2%);
+				opacity: 0.8;
+			}
+		}
+		
+		.privacy-hero > .container {
+			position: relative;
+			z-index: 1;
+		}
+		
+		.privacy-hero h1 {
+			font-size: 3rem;
+			font-weight: 900;
+			margin-bottom: 1.5rem;
+		}
+		
+		.privacy-hero .last-updated {
+			background: rgba(255, 255, 255, 0.25);
+			display: inline-block;
+			padding: 0.75rem 2rem;
+			border-radius: 50px;
+			font-size: 1rem;
+			backdrop-filter: blur(15px);
+			box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+			border: 1px solid rgba(255, 255, 255, 0.2);
+		}
+		
+		.privacy-content {
+			padding: 5rem 0;
+			background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 50%);
+		}
+		
+		.content-container {
+			background: white;
+			border-radius: 25px;
+			padding: 4rem;
+			box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+			max-width: 950px;
+			margin: -3rem auto 0;
+			position: relative;
+			z-index: 10;
+		}
+		
+		.content-container h2 {
+			color: var(--brand-primary);
+			font-weight: 800;
+			margin-top: 3rem;
+			margin-bottom: 1.75rem;
+			padding-bottom: 1rem;
+			border-bottom: 3px solid var(--brand-primary);
+			font-size: 1.85rem;
+			position: relative;
+			padding-left: 1rem;
+		}
+		
+		.content-container h2::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 4px;
+			background: linear-gradient(to bottom, var(--brand-primary), var(--brand-secondary));
+			border-radius: 2px;
+		}
+		
+		.content-container h2:first-child {
+			margin-top: 0;
+		}
+		
+		.content-container h3 {
+			color: var(--brand-primary);
+			font-weight: 700;
+			margin-top: 2.5rem;
+			margin-bottom: 1.25rem;
+			font-size: 1.35rem;
+		}
+		
+		.content-container p {
+			line-height: 1.8;
+			margin-bottom: 1.5rem;
+			color: #333;
+		}
+		
+		.content-container ul {
+			line-height: 2;
+			margin-bottom: 1.75rem;
+		}
+		
+		.content-container ul li {
+			padding: 0.4rem 0;
+		}
+		
+		.alert-box {
+			background: linear-gradient(135deg, #fff3cd 0%, #ffe8a1 100%);
+			border-left: 5px solid #ffc107;
+			padding: 2rem;
+			margin: 2.5rem 0;
+			border-radius: 15px;
+			box-shadow: 0 4px 15px rgba(255, 193, 7, 0.15);
+		}
+		
+		.alert-box strong {
+			color: #856404;
+			font-size: 1.1rem;
+		}
+		
+		.info-box {
+			background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+			border-left: 5px solid var(--brand-primary);
+			padding: 2rem;
+			margin: 2.5rem 0;
+			border-radius: 15px;
+			box-shadow: 0 4px 15px rgba(11, 128, 189, 0.12);
+		}
+		
+		.contact-box {
+			background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+			padding: 2.5rem;
+			border-radius: 20px;
+			margin: 2.5rem 0;
+			border: 2px solid #4caf50;
+			box-shadow: 0 4px 15px rgba(76, 175, 80, 0.15);
+		}
+		
+		.contact-box a {
+			color: var(--brand-primary);
+			text-decoration: none;
+			font-weight: 600;
+			transition: all 0.3s ease;
+		}
+		
+		.contact-box a:hover {
+			color: var(--brand-secondary);
+		}
+		
+		.btn-back-to-home {
+			background: linear-gradient(135deg, var(--brand-primary), #0c92d1);
+			color: white;
+			border: none;
+			padding: 0.75rem 2rem;
+			border-radius: 50px;
+			font-weight: 600;
+			transition: all 0.3s ease;
+			text-decoration: none;
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			box-shadow: 0 4px 15px rgba(11, 128, 189, 0.3);
+		}
+		
+		.btn-back-to-home:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 6px 20px rgba(11, 128, 189, 0.4);
+			color: white;
+		}
+		
+		@media (max-width: 768px) {
+			.privacy-hero {
+				padding: 6rem 0 4rem;
+			}
+			
+			.privacy-hero h1 {
+				font-size: 2rem;
+			}
+			
+			.content-container {
+				padding: 2.5rem 2rem;
+				margin-top: -2rem;
+			}
+			
+			.content-container h2 {
+				font-size: 1.5rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand brand" href="index.html" aria-label="Bolsi">
+				<img src="assets/images/gm-logov1.png" width="48" height="48" alt="Bolsi logo" class="d-inline-block align-text-top" />
+				<div class="d-inline-block ms-2">
+					<span class="brand-title d-block">Bolsi</span>
+					<span class="brand-tagline d-block" data-i18n="brand.tagline">Gastos y presupuesto</span>
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto align-items-center">
+					<li class="nav-item">
+						<div class="language-selector">
+							<button class="btn btn-sm btn-outline-primary" id="languageSelectorBtn" aria-label="Seleccionar idioma">
+								<span id="currentFlag">🇪🇸</span> <span id="currentLang">ES</span>
+							</button>
+							<div class="language-dropdown" id="languageDropdown">
+								<button class="language-option" data-lang="es">🇪🇸 Español</button>
+								<button class="language-option" data-lang="en">🇺🇸 English</button>
+								<button class="language-option" data-lang="pt-BR">🇧🇷 Português</button>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item ms-2">
+						<a href="index.html" class="btn-back-to-home">
+							<i class="fas fa-arrow-left"></i> <span data-i18n="privacy.navbar.back">Volver al Inicio</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero -->
+	<section class="privacy-hero">
+		<div class="container">
+			<h1>
+				<i class="fas fa-shield-alt"></i> <span data-i18n="privacy.hero.title">Política de Privacidad</span>
+			</h1>
+			<div class="last-updated">
+				<strong data-i18n="privacy.hero.lastUpdated">Última actualización:</strong> <span data-i18n="privacy.hero.date">15 de noviembre de 2025</span>
+			</div>
+		</div>
+	</section>
+
+	<!-- Content -->
+	<main class="privacy-content">
+		<div class="container">
+			<div class="content-container">
+				<h2 data-i18n="privacy.section1.title">1. Introducción</h2>
+				<p data-i18n="privacy.section1.p1">
+					Bienvenido a <strong>Bolsi</strong>. Esta aplicación es desarrollada y mantenida por 
+					Altrion Tech ("nosotros", "nuestro" o "nos"). Nos comprometemos a proteger tu privacidad y 
+					a ser transparentes sobre cómo recopilamos, usamos y protegemos tu información personal.
+				</p>
+				<p data-i18n="privacy.section1.p2">
+					Esta Política de Privacidad explica qué información recopilamos, cómo la usamos, con quién 
+					la compartimos y cuáles son tus derechos respecto a tu información personal.
+				</p>
+
+				<div class="alert-box">
+					<span data-i18n="privacy.section1.important"><strong>Importante:</strong> Al usar Bolsi, aceptas los términos descritos en 
+					esta Política de Privacidad. Si no estás de acuerdo, por favor no uses la aplicación.</span>
+				</div>
+
+				<h2 data-i18n="privacy.section2.title">2. Información que Recopilamos</h2>
+				
+				<h3 data-i18n="privacy.section2.subtitle1">2.1 Información que Proporcionas</h3>
+				<ul>
+					<li data-i18n="privacy.section2.item1"><strong>Cuenta de Usuario:</strong> Dirección de correo electrónico y contraseña cuando te registras</li>
+					<li data-i18n="privacy.section2.item2"><strong>Datos Financieros:</strong> Información sobre tus gastos, pagos fijos, movimientos financieros, títulos de gastos, montos y monedas</li>
+					<li data-i18n="privacy.section2.item3"><strong>Datos de Grupos:</strong> Información sobre grupos que creas o a los que te unes para compartir gastos</li>
+					<li data-i18n="privacy.section2.item4"><strong>Preferencias:</strong> Configuraciones de la aplicación, preferencias de visualización de gráficas</li>
+				</ul>
+
+				<h3 data-i18n="privacy.section2.subtitle2">2.2 Información que Recopilamos Automáticamente</h3>
+				<ul>
+					<li data-i18n="privacy.section2.item5"><strong>Información del Dispositivo:</strong> Tipo de dispositivo, sistema operativo, identificadores únicos</li>
+					<li data-i18n="privacy.section2.item6"><strong>Datos de Uso:</strong> Cómo interactúas con la aplicación, funciones utilizadas, frecuencia de uso</li>
+					<li data-i18n="privacy.section2.item7"><strong>Información de Errores:</strong> Reportes de crashes y errores para mejorar la estabilidad de la app</li>
+					<li data-i18n="privacy.section2.item8"><strong>Datos de Publicidad:</strong> Interacciones con anuncios mostrados en la aplicación</li>
+				</ul>
+
+				<h3 data-i18n="privacy.section2.subtitle3">2.3 Información que NO Recopilamos</h3>
+				<ul>
+					<li data-i18n="privacy.section2.item9">NO recopilamos información de tarjetas de crédito o débito</li>
+					<li data-i18n="privacy.section2.item10">NO accedemos a tu información bancaria real</li>
+					<li data-i18n="privacy.section2.item11">NO recopilamos datos de menores de 13 años intencionalmente</li>
+					<li data-i18n="privacy.section2.item12">NO rastreamos tu ubicación GPS</li>
+				</ul>
+
+				<h2 data-i18n="privacy.section3.title">3. Cómo Usamos tu Información</h2>
+				
+				<p data-i18n="privacy.section3.intro">Utilizamos la información recopilada para:</p>
+				<ul>
+					<li data-i18n="privacy.section3.item1"><strong>Proporcionar el Servicio:</strong> Permitirte usar todas las funcionalidades de la app</li>
+					<li data-i18n="privacy.section3.item2"><strong>Sincronización:</strong> Mantener tus datos sincronizados entre tus dispositivos</li>
+					<li data-i18n="privacy.section3.item3"><strong>Personalización:</strong> Adaptar la experiencia según tus preferencias</li>
+					<li data-i18n="privacy.section3.item4"><strong>Mejoras:</strong> Analizar el uso para mejorar funcionalidades y rendimiento</li>
+					<li data-i18n="privacy.section3.item5"><strong>Soporte:</strong> Responder a tus consultas y resolver problemas técnicos</li>
+					<li data-i18n="privacy.section3.item6"><strong>Seguridad:</strong> Detectar y prevenir fraudes o usos indebidos</li>
+					<li data-i18n="privacy.section3.item7"><strong>Comunicaciones:</strong> Enviarte notificaciones importantes sobre la app</li>
+				</ul>
+
+				<h2 data-i18n="privacy.section4.title">4. Compartir Información</h2>
+				
+				<p data-i18n="privacy.section4.intro"><strong>NO vendemos ni alquilamos tu información personal a terceros.</strong></p>
+				
+				<p data-i18n="privacy.section4.p1">Podemos compartir información limitada con:</p>
+				<ul>
+					<li data-i18n="privacy.section4.item1"><strong>Firebase (Google):</strong> Para almacenamiento de datos y autenticación</li>
+					<li data-i18n="privacy.section4.item2"><strong>Google AdMob:</strong> Para mostrar publicidad relevante (solo en versión gratuita)</li>
+					<li data-i18n="privacy.section4.item3"><strong>Proveedores de Servicios:</strong> Que nos ayudan a operar y mejorar la app</li>
+					<li data-i18n="privacy.section4.item4"><strong>Cumplimiento Legal:</strong> Si es requerido por ley o para proteger nuestros derechos</li>
+				</ul>
+
+				<h2 data-i18n="privacy.section5.title">5. Seguridad de los Datos</h2>
+				
+				<p data-i18n="privacy.section5.intro">Implementamos múltiples medidas de seguridad:</p>
+				<ul>
+					<li data-i18n="privacy.section5.item1"><strong>Encriptación:</strong> Todos los datos se transmiten mediante HTTPS</li>
+					<li data-i18n="privacy.section5.item2"><strong>Firebase Security Rules:</strong> Restricciones de acceso a nivel de base de datos</li>
+					<li data-i18n="privacy.section5.item3"><strong>Autenticación Segura:</strong> Contraseñas hasheadas, nunca almacenadas en texto plano</li>
+					<li data-i18n="privacy.section5.item4"><strong>Actualizaciones Regulares:</strong> Parches de seguridad aplicados constantemente</li>
+				</ul>
+
+				<div class="info-box">
+					<span data-i18n="privacy.section5.note"><strong>Nota de Seguridad:</strong> Aunque implementamos las mejores prácticas de seguridad, 
+					ningún sistema es 100% seguro. Te recomendamos usar contraseñas fuertes y únicas.</span>
+				</div>
+
+				<h2 data-i18n="privacy.section6.title">6. Tus Derechos</h2>
+				
+				<p data-i18n="privacy.section6.intro">Tienes derecho a:</p>
+				<ul>
+					<li data-i18n="privacy.section6.item1"><strong>Acceder:</strong> Solicitar una copia de tus datos personales</li>
+					<li data-i18n="privacy.section6.item2"><strong>Rectificar:</strong> Corregir información inexacta o incompleta</li>
+					<li data-i18n="privacy.section6.item3"><strong>Eliminar:</strong> Solicitar la eliminación de tu cuenta y datos</li>
+					<li data-i18n="privacy.section6.item4"><strong>Exportar:</strong> Descargar tus datos en formato portable (función Premium)</li>
+					<li data-i18n="privacy.section6.item5"><strong>Oponerte:</strong> Rechazar ciertos usos de tu información</li>
+					<li data-i18n="privacy.section6.item6"><strong>Limitar:</strong> Restringir el procesamiento de tus datos</li>
+				</ul>
+
+				<h2 data-i18n="privacy.section7.title">7. Retención de Datos</h2>
+				
+				<p data-i18n="privacy.section7.intro">Conservamos tu información mientras:</p>
+				<ul>
+					<li data-i18n="privacy.section7.item1">Tu cuenta esté activa</li>
+					<li data-i18n="privacy.section7.item2">Sea necesario para proporcionar el servicio</li>
+					<li data-i18n="privacy.section7.item3">Tengamos obligaciones legales de retención</li>
+					<li data-i18n="privacy.section7.item4">Sea necesario para resolver disputas</li>
+				</ul>
+				
+				<p data-i18n="privacy.section7.p1">
+					Cuando eliminas tu cuenta, la mayoría de los datos se eliminan en 30 días. Algunos datos pueden 
+					conservarse por requisitos legales o fiscales (hasta 7 años para transacciones de pago).
+				</p>
+
+				<h2 data-i18n="privacy.section8.title">8. Servicios de Terceros</h2>
+				
+				<p data-i18n="privacy.section8.intro">Políticas de privacidad de servicios utilizados:</p>
+				<ul>
+					<li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></li>
+					<li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Privacy Policy</a></li>
+					<li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+				</ul>
+
+				<h2 data-i18n="privacy.section9.title">9. Menores de Edad</h2>
+				
+				<p data-i18n="privacy.section9.intro"><strong>Bolsi NO está dirigida a menores de 13 años.</strong></p>
+				<ul>
+					<li data-i18n="privacy.section9.item1">No recopilamos intencionalmente información de niños menores de 13 años</li>
+					<li data-i18n="privacy.section9.item2">Si descubrimos que hemos recopilado información de un menor de 13 años, la eliminaremos inmediatamente</li>
+					<li data-i18n="privacy.section9.item3">Si eres padre/madre/tutor y crees que tu hijo nos ha proporcionado información, contáctanos</li>
+				</ul>
+
+				<h2 data-i18n="privacy.section10.title">10. Actualizaciones de esta Política</h2>
+				
+				<p data-i18n="privacy.section10.intro">Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos sobre cambios significativos mediante:</p>
+				<ul>
+					<li data-i18n="privacy.section10.item1">Notificación dentro de la aplicación</li>
+					<li data-i18n="privacy.section10.item2">Correo electrónico (si lo has proporcionado)</li>
+					<li data-i18n="privacy.section10.item3">Actualización de la fecha "Última actualización" en la parte superior</li>
+				</ul>
+
+				<h2 data-i18n="privacy.section11.title">11. Contacto</h2>
+				
+				<div class="contact-box">
+					<p data-i18n="privacy.section11.intro">
+						Si tienes preguntas, inquietudes o solicitudes relacionadas con esta Política de Privacidad 
+						o el tratamiento de tus datos personales, contáctanos:
+					</p>
+					<p class="mb-2">
+						<strong data-i18n="privacy.section11.developer">Desarrollador:</strong> Altrion Tech<br>
+						<strong data-i18n="privacy.section11.app">Aplicación:</strong> Bolsi<br>
+						<strong data-i18n="privacy.section11.email">Email:</strong> <a href="mailto:desarrollo@altrion-tech.com">desarrollo@altrion-tech.com</a>
+					</p>
+					<p class="mb-0">
+						<strong data-i18n="privacy.section11.response">Tiempo de Respuesta:</strong> <span data-i18n="privacy.section11.responseText">Nos comprometemos a responder a tus consultas en un plazo de 7 días hábiles.</span>
+					</p>
+				</div>
+
+				<hr class="my-5">
+				
+				<p class="text-center text-muted">
+					<strong data-i18n="privacy.footer.version">Versión:</strong> 1.0.0<br>
+					<strong data-i18n="privacy.footer.effective">Fecha de Vigencia:</strong> <span data-i18n="privacy.footer.effectiveDate">15 de noviembre de 2025</span>
+				</p>
+			</div>
+		</div>
+	</main>
+
+	<!-- Footer -->
+	<footer class="site-footer">
+		<div class="container footer-grid">
+			<p data-i18n="footer.rights">© 2025 Bolsi. Todos los derechos reservados.</p>
+			<div class="footer-links">
+				<a href="privacy-policy.html" data-i18n="footer.privacy">Política de privacidad</a>
+				<a href="delete-account.html" data-i18n="footer.deleteAccount">Eliminar cuenta</a>
+				<a href="#" data-i18n="footer.terms">Términos de uso</a>
+				<a href="mailto:hola@bolsi.app" data-i18n="footer.contact">Contacto</a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Bootstrap JS Bundle -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	
+	<script src="assets/js/translations.js"></script>
+	<script src="assets/js/privacy.js"></script>
+</body>
+</html>

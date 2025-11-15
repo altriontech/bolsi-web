@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Bolsi es la app más amigable para controlar gastos, crear presupuestos reales y ahorrar cada mes." />
+	<meta name="keywords" content="Bolsi, control de gastos, presupuesto, finanzas personales, ahorro, app de finanzas" />
+	<meta name="author" content="Bolsi App" />
+	<meta name="theme-color" content="#0b80bd" />
+	<meta name="geo.region" content="AR-C" />
+	<meta name="geo.placename" content="Buenos Aires" />
+	<meta name="geo.position" content="-34.6037;-58.3816" />
+	<meta name="ICBM" content="-34.6037, -58.3816" />
+	
+	<!-- SEO Enhanced -->
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+	<meta name="googlebot" content="index, follow" />
+	<link rel="canonical" href="https://bolsi.altrion-tech.com/" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Bolsi" />
+	<meta property="og:title" content="Bolsi | Control de Gastos y Presupuesto Personal" />
+	<meta property="og:description" content="App gratuita para controlar gastos personales y compartidos. Presupuestos inteligentes, alertas en tiempo real y sincronización automática. Disponible para Android." />
+	<meta property="og:url" content="https://bolsi.altrion-tech.com/" />
+	<meta property="og:image" content="https://bolsi.altrion-tech.com/assets/images/header.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:locale" content="es_LA" />
+	<meta property="og:locale:alternate" content="en_US" />
+	<meta property="og:locale:alternate" content="pt_BR" />
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Bolsi | Control de Gastos Personal y Compartido" />
+	<meta name="twitter:description" content="Controla tus gastos en segundos. App gratuita con presupuestos inteligentes, alertas y sincronización automática." />
+	<meta name="twitter:image" content="https://bolsi.altrion-tech.com/assets/images/header.png" />
+	
+	<!-- Alternate Languages -->
+	<link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/?lang=es" />
+	<link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/?lang=en" />
+	<link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/?lang=pt" />
+	<link rel="alternate" hreflang="x-default" href="https://bolsi.altrion-tech.com/" />
+	
+	<link rel="icon" type="image/png" href="assets/images/gm-logov1.png" />
+	<link rel="apple-touch-icon" href="assets/images/gm-logov1.png" />
+	
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/css/styles.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap-custom.css" />
+	<title>Bolsi | Control de Gastos y Presupuesto Personal Gratis</title>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "MobileApplication",
+			"name": "Bolsi: Gastos y Presupuesto",
+			"operatingSystem": "Android",
+			"applicationCategory": "FinanceApplication",
+			"url": "https://bolsi.altrion-tech.com/",
+			"logo": "https://bolsi.altrion-tech.com/assets/images/gm-logov1.png",
+			"image": "https://bolsi.altrion-tech.com/assets/images/header.png",
+			"inLanguage": ["es", "en", "pt-BR"],
+			"description": "Bolsi ayuda a controlar tus gastos personales y compartidos con presupuestos inteligentes y alertas en tiempo real.",
+			"offers": {
+				"@type": "Offer",
+				"price": "0",
+				"priceCurrency": "USD"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.9",
+				"ratingCount": "1250"
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<svg aria-hidden="true" class="icon-sprite">
+		<symbol id="icon-lightning" viewBox="0 0 24 24">
+			<path fill="currentColor" d="M13.5 2L5 14h5.2l-1.2 8 8.5-12H12l1.5-8z" />
+		</symbol>
+		<symbol id="icon-sparkles" viewBox="0 0 24 24">
+			<path fill="currentColor" d="M12 2l1.4 5 5 1.4-5 1.4-1.4 5-1.4-5-5-1.4 5-1.4L12 2zm-6 7l.8 2.8 2.8.8-2.8.8L6 16.2l-.8-2.8L2.4 12l2.8-.8L6 9zm12 6l.6 2.2 2.4.6-2.4.6-.6 2.2-.6-2.2-2.4-.6 2.4-.6.6-2.2z" />
+		</symbol>
+		<symbol id="icon-chart" viewBox="0 0 24 24">
+			<path fill="currentColor" d="M5 21h14v-2H5v2zm2-4h3V9H7v8zm4 0h3V5h-3v12zm4 0h3v-7h-3v7z" />
+		</symbol>
+		<symbol id="icon-question" viewBox="0 0 24 24">
+			<path fill="currentColor" d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 15a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zm1.1-3.9v.4a1.1 1.1 0 01-2.2 0v-.8c0-.7.4-1.2 1-1.5.8-.4 1.3-.8 1.3-1.5 0-.8-.6-1.3-1.5-1.3s-1.5.5-1.6 1.4a1.1 1.1 0 01-2.2-.2c.2-2 1.7-3.4 3.8-3.4 2.2 0 3.7 1.4 3.7 3.4 0 1.6-.8 2.5-2.3 3.1-.2.1-.3.2-.3.4z" />
+		</symbol>
+		<symbol id="icon-target" viewBox="0 0 24 24">
+			<path fill="currentColor" d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 17.5A7.5 7.5 0 114.5 12 7.5 7.5 0 0112 19.5zm0-12a4.5 4.5 0 104.5 4.5A4.5 4.5 0 0012 7.5zm0 6a1.5 1.5 0 111.5-1.5A1.5 1.5 0 0112 13.5z" />
+		</symbol>
+		<symbol id="icon-rocket" viewBox="0 0 24 24">
+			<path fill="currentColor" d="M13 3c3.6 0 5.6 2.5 5.6 6.1 0 2-.7 3.9-1.9 5.5l-.9 1.2-3.1-3.1A3.5 3.5 0 009.3 9l-3-3 .8-.8C9.2 3.8 11 3 13 3zm-8 6.5L4 13l3.5 1 2.2-2.2a1.5 1.5 0 00-2.1-2.1L5 9.5zm6.6 6.6l-2.2 2.2 1 3.5 3.5-.9 1.6-1.6a1.5 1.5 0 00-2.1-2.1l-1.8-1.1z" />
+		</symbol>
+	</svg>
+	<a class="skip-link" href="#hero" data-i18n="common.skipLink">Saltar al contenido</a>
+
+	<header class="site-header fixed-top" id="top">
+		<nav class="navbar navbar-expand-xl navbar-light bg-white">
+			<div class="container">
+				<a class="navbar-brand brand" href="#top" aria-label="Bolsi">
+					<img src="assets/images/gm-logov1.png" width="48" height="48" alt="Bolsi logo" class="d-inline-block align-text-top" />
+					<div class="d-inline-block ms-2">
+						<span class="brand-title d-block">Bolsi</span>
+						<span class="brand-tagline d-block" data-i18n="brand.tagline">Gastos y presupuesto</span>
+					</div>
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mx-auto mb-2 mb-xl-0">
+						<li class="nav-item">
+							<a class="nav-link" href="#benefits" data-i18n="nav.why">Por qué elegirnos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#features" data-i18n="nav.features">Funciones</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#audience" data-i18n="nav.audience">Para quién</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#faq" data-i18n="nav.faq">FAQs</a>
+						</li>
+					</ul>
+					
+					<div class="d-flex align-items-center gap-2">
+						<div class="btn-group lang-switch" role="group" aria-label="Cambiar idioma">
+							<button type="button" class="btn btn-sm btn-outline-primary lang-btn active" data-lang="es">ES</button>
+							<button type="button" class="btn btn-sm btn-outline-primary lang-btn" data-lang="en">EN</button>
+							<button type="button" class="btn btn-sm btn-outline-primary lang-btn" data-lang="pt">PT</button>
+						</div>
+						<a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.gastosmensuales.app" data-i18n="nav.download">Descargar</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section id="hero" class="hero">
+			<div class="container hero-grid">
+				<div class="hero-copy">
+					<p class="eyebrow">
+						<span class="icon icon-lightning" aria-hidden="true"><svg><use href="#icon-lightning"></use></svg></span>
+						<span data-i18n="hero.eyebrow">Finanzas claras, decisiones inteligentes</span>
+					</p>
+					<h1 data-i18n="hero.title">Bolsi: Gastos y presupuesto sin complicaciones</h1>
+					<p class="lead" data-i18n="hero.description">¿Cansado de no saber a dónde se va tu dinero? Toma el control con Bolsi, la app más amigable para gestionar tus finanzas personales y compartidas.</p>
+					<div class="hero-ctas">
+						<a class="btn primary" href="https://play.google.com/store/apps/details?id=com.gastosmensuales.app" target="_blank" rel="noopener" data-i18n="hero.ctaPrimary">Descargar en Google Play</a>
+					</div>
+					<p class="trust" data-i18n="hero.trust">Disponible para Android. Sincroniza en tiempo real.</p>
+					<div class="store-badges">
+						<a class="store-badge google-play" href="https://play.google.com/store/apps/details?id=com.gastosmensuales.app" target="_blank" rel="noopener" aria-label="Descargar Bolsi en Google Play">
+							<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+								<path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+							</svg>
+							<span>Google Play</span>
+						</a>
+					</div>
+				</div>
+				<div class="hero-visual" aria-hidden="true">
+					<div class="hero-image-wrapper">
+						<video 
+							class="app-preview video-preview" 
+							autoplay 
+							loop 
+							muted 
+							playsinline
+							poster="assets/images/header.png"
+						>
+							<source src="assets/video/bolsi-saluda.mp4" type="video/mp4" />
+							<!-- Fallback para navegadores sin soporte de video -->
+							<img src="assets/images/header.png" alt="Vista previa de la app Bolsi" />
+						</video>
+					</div>
+					<div class="stat-card">
+						<p data-i18n="hero.statLabel">Alertas inteligentes</p>
+						<strong data-i18n="hero.statValue">+30% más ahorro</strong>
+						<small data-i18n="hero.statCaption">Con recordatorios diarios y reportes semanales</small>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Bonus Feature Section -->
+		<section class="bonus-section">
+			<div class="container">
+				<div class="bonus-feature">
+					<div class="bonus-badge">
+						<i class="fas fa-star"></i>
+						<span>Colaborativo</span>
+					</div>
+					<div class="bonus-content">
+						<div class="bonus-icon-wrapper">
+							<div class="bonus-icon-circle">
+								<i class="fas fa-users"></i>
+							</div>
+							<div class="bonus-icon-dots">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="bonus-text">
+							<h3 data-i18n="howItWorks.bonus.title">Comparte con tu familia</h3>
+							<p data-i18n="howItWorks.bonus.description">Crea grupos familiares, de pareja o roommates. Todos ven los mismos gastos sincronizados en tiempo real con Firebase.</p>
+							<div class="bonus-features-list">
+								<div class="bonus-feature-item">
+									<i class="fas fa-check-circle"></i>
+									<span>Sincronización en tiempo real</span>
+								</div>
+								<div class="bonus-feature-item">
+									<i class="fas fa-check-circle"></i>
+									<span>Grupos ilimitados</span>
+								</div>
+								<div class="bonus-feature-item">
+									<i class="fas fa-check-circle"></i>
+									<span>Gestión colaborativa</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="benefits" class="section benefits">
+			<div class="container">
+				<div class="section-heading">
+					<p class="eyebrow">
+						<span class="icon icon-sparkles" aria-hidden="true"><svg><use href="#icon-sparkles"></use></svg></span>
+						<span data-i18n="benefits.eyebrow">Beneficios clave</span>
+					</p>
+					<h2 data-i18n="benefits.heading">Todo lo que necesitas para controlar tu dinero</h2>
+					<p data-i18n="benefits.subheading">Simplicidad, seguridad y control total en una sola app</p>
+				</div>
+				<div class="benefits-grid">
+					<article class="benefit-card">
+						<div class="benefit-icon">
+							<i class="fas fa-bolt"></i>
+						</div>
+						<div class="benefit-content">
+							<h3 data-i18n="benefits.cards.0.title">Súper rápido</h3>
+							<p data-i18n="benefits.cards.0.description">Registra un gasto en menos de 10 segundos. Diseñada para usarla a diario sin esfuerzo.</p>
+						</div>
+					</article>
+					<article class="benefit-card">
+						<div class="benefit-icon">
+							<i class="fas fa-users"></i>
+						</div>
+						<div class="benefit-content">
+							<h3 data-i18n="benefits.cards.1.title">Gastos compartidos</h3>
+							<p data-i18n="benefits.cards.1.description">Crea grupos familiares, de pareja o roommates y sincroniza todo en tiempo real.</p>
+						</div>
+					</article>
+					<article class="benefit-card">
+						<div class="benefit-icon">
+							<i class="fas fa-bullseye"></i>
+						</div>
+						<div class="benefit-content">
+							<h3 data-i18n="benefits.cards.2.title">Presupuestos inteligentes</h3>
+							<p data-i18n="benefits.cards.2.description">Define límites por categoría y recibe alertas tipo semáforo antes de pasarte.</p>
+						</div>
+					</article>
+					<article class="benefit-card">
+						<div class="benefit-icon">
+							<i class="fas fa-shield-alt"></i>
+						</div>
+						<div class="benefit-content">
+							<h3 data-i18n="benefits.cards.3.title">100% seguro</h3>
+							<p data-i18n="benefits.cards.3.description">Datos cifrados con Firebase. Nadie más que tú accede a tus finanzas.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="how-it-works" class="section how-it-works">
+			<div class="container">
+				<div class="section-heading">
+					<p class="eyebrow">
+						<span class="icon icon-lightning" aria-hidden="true"><svg><use href="#icon-lightning"></use></svg></span>
+						<span data-i18n="howItWorks.eyebrow">Fácil y rápido</span>
+					</p>
+					<h2 data-i18n="howItWorks.heading">Comienza en 3 simples pasos</h2>
+					<p data-i18n="howItWorks.subheading">Configura tu primer presupuesto en menos de 5 minutos</p>
+				</div>
+				
+				<div class="steps-scroll-container">
+					<div class="steps-vertical-slider">
+						<div class="step-slide" data-step="1">
+							<div class="step-slide-content">
+								<div class="step-slide-icon">
+									<i class="fas fa-wallet"></i>
+								</div>
+								<h3 data-i18n="howItWorks.step1.title">Crea tus gastos fijos</h3>
+								<p data-i18n="howItWorks.step1.description">Registra renta, servicios, suscripciones. Define montos iniciales y Bolsi hace el seguimiento automático.</p>
+							</div>
+							<div class="step-slide-visual">
+								<img src="assets/images/steps/1.png" alt="Bolsi paso 1" class="step-image" loading="lazy" />
+							</div>
+						</div>
+						
+						<div class="step-slide" data-step="2">
+							<div class="step-slide-content">
+								<div class="step-slide-icon">
+									<i class="fas fa-edit"></i>
+								</div>
+								<h3 data-i18n="howItWorks.step2.title">Añade movimientos diarios</h3>
+								<p data-i18n="howItWorks.step2.description">Cada vez que gastas, agrégalo en segundos. Bolsi descuenta automáticamente y actualiza tu saldo restante.</p>
+							</div>
+							<div class="step-slide-visual">
+								<img src="assets/images/steps/2.png" alt="Bolsi paso 2" class="step-image" loading="lazy" />
+							</div>
+						</div>
+						
+						<div class="step-slide" data-step="3">
+							<div class="step-slide-content">
+								<div class="step-slide-icon">
+									<i class="fas fa-chart-pie"></i>
+								</div>
+								<h3 data-i18n="howItWorks.step3.title">Ve estadísticas en tiempo real</h3>
+								<p data-i18n="howItWorks.step3.description">Gráficas por categoría, comparaciones mensuales y alertas cuando te acercas al límite de tus presupuestos.</p>
+							</div>
+							<div class="step-slide-visual">
+								<img src="assets/images/steps/3.png" alt="Bolsi paso 3" class="step-image" loading="lazy" />
+							</div>
+						</div>
+					</div>
+					
+					<div class="steps-progress">
+						<div class="progress-dot" data-step="1"></div>
+						<div class="progress-dot" data-step="2"></div>
+						<div class="progress-dot" data-step="3"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="features" class="section features">
+			<div class="container">
+				<div class="section-heading">
+					<p class="eyebrow">
+						<span class="icon icon-chart" aria-hidden="true"><svg><use href="#icon-chart"></use></svg></span>
+						<span data-i18n="features.eyebrow">Tus finanzas, claras como el agua</span>
+					</p>
+					<h2 data-i18n="features.heading">Todo lo que necesitas en una app amigable</h2>
+					<p data-i18n="features.subheading">Controla gastos fijos y variables, ve estadísticas visuales y mantén la calma ante cualquier pago.</p>
+				</div>
+				
+				<div class="features-two-column">
+					<div class="features-cards">
+						<div class="feature-item">
+							<div class="feature-item-icon"><i class="fas fa-credit-card"></i></div>
+							<div class="feature-item-content">
+								<h4 data-i18n="features.cards.title">Tarjetas de Crédito</h4>
+								<p data-i18n="features.cards.description">Registra compras en cuotas, visualiza tu deuda total y gestiona múltiples tarjetas desde un panel unificado.</p>
+							</div>
+						</div>
+						<div class="feature-item">
+							<div class="feature-item-icon"><i class="fas fa-globe-americas"></i></div>
+							<div class="feature-item-content">
+								<h4 data-i18n="features.multiCurrency.title">Multi-moneda</h4>
+								<p data-i18n="features.multiCurrency.description">Soporta USD, EUR, MXN, ARS, COP, BRL y más. Perfecto para viajeros o quienes manejan diferentes divisas.</p>
+							</div>
+						</div>
+						<div class="feature-item">
+							<div class="feature-item-icon"><i class="fas fa-bell"></i></div>
+							<div class="feature-item-content">
+								<h4 data-i18n="features.alerts.title">Alertas Inteligentes</h4>
+								<p data-i18n="features.alerts.description">Recibe notificaciones cuando te acerques al límite de tus gastos o vencimientos de pagos importantes.</p>
+							</div>
+						</div>
+						<div class="feature-item">
+							<div class="feature-item-icon"><i class="fas fa-chart-line"></i></div>
+							<div class="feature-item-content">
+								<h4 data-i18n="features.reports.title">Reportes Visuales</h4>
+								<p data-i18n="features.reports.description">Gráficos de pastel, barras y líneas para entender tus patrones de gasto. Exporta reportes cuando lo necesites.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="features-list-card">
+						<h3 data-i18n="features.heading">Todo lo que necesitas en una app amigable</h3>
+						<p data-i18n="features.subheading">Controla gastos fijos y variables, ve estadísticas visuales y mantén la calma ante cualquier pago.</p>
+						<ul class="feature-list">
+							<li data-i18n="features.list.0">Control Total: registra gastos fijos y variables con etiquetas inteligentes.</li>
+							<li data-i18n="features.list.1">Estadísticas Visuales: gráficos claros para detectar fugas de dinero.</li>
+							<li data-i18n="features.list.2">Grupos Ilimitados: ideal para la casa, viajes o proyectos colaborativos.</li>
+							<li data-i18n="features.list.3">Soporte Multimoneda: USD, EUR, ARS, MXN, COP y más sin conversiones manuales.</li>
+							<li data-i18n="features.list.4">Historial Completo: edita, elimina y consulta cada movimiento en segundos.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="faq" class="section faq">
+			<div class="container">
+				<div class="section-heading">
+					<p class="eyebrow">
+						<span class="icon icon-question" aria-hidden="true"><svg><use href="#icon-question"></use></svg></span>
+						<span data-i18n="faq.eyebrow">Preguntas frecuentes</span>
+					</p>
+					<h2 data-i18n="faq.heading">Tus dudas, resueltas</h2>
+					<p data-i18n="faq.subheading">Todo lo que necesitas saber sobre Bolsi</p>
+				</div>
+				<div class="faq-accordion">
+					<div class="faq-accordion-item">
+						<button class="faq-accordion-header" type="button">
+							<span class="faq-question" data-i18n="faq.items.0.question">¿Necesito ser experto en finanzas?</span>
+							<span class="faq-icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</button>
+						<div class="faq-accordion-content">
+							<p data-i18n="faq.items.0.answer">No. Bolsi guía cada paso con textos claros y recordatorios automáticos.</p>
+						</div>
+					</div>
+					
+					<div class="faq-accordion-item">
+						<button class="faq-accordion-header" type="button">
+							<span class="faq-question" data-i18n="faq.items.1.question">¿Funciona en varios países?</span>
+							<span class="faq-icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</button>
+						<div class="faq-accordion-content">
+							<p data-i18n="faq.items.1.answer">Sí. Soporta múltiples monedas y contextos personales o grupales en simultáneo.</p>
+						</div>
+					</div>
+					
+					<div class="faq-accordion-item">
+						<button class="faq-accordion-header" type="button">
+							<span class="faq-question">¿Es gratis?</span>
+							<span class="faq-icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</button>
+						<div class="faq-accordion-content">
+							<p>Sí, Bolsi es completamente gratuita. Todas las funciones principales están disponibles sin costo.</p>
+						</div>
+					</div>
+					
+					<div class="faq-accordion-item">
+						<button class="faq-accordion-header" type="button">
+							<span class="faq-question">¿Mis datos están seguros?</span>
+							<span class="faq-icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</button>
+						<div class="faq-accordion-content">
+							<p>Absolutamente. Usamos Firebase con cifrado de extremo a extremo. Nadie más que tú tiene acceso a tu información financiera.</p>
+						</div>
+					</div>
+					
+					<div class="faq-accordion-item">
+						<button class="faq-accordion-header" type="button">
+							<span class="faq-question">¿Puedo usarla sin conexión?</span>
+							<span class="faq-icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</button>
+						<div class="faq-accordion-content">
+							<p>Sí, puedes registrar gastos sin conexión y se sincronizarán automáticamente cuando vuelvas a tener internet.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="audience" class="section audience">
+			<div class="container">
+				<div class="section-heading centered">
+					<p class="eyebrow">
+						<span class="icon icon-target" aria-hidden="true"><svg><use href="#icon-target"></use></svg></span>
+						<span data-i18n="audience.eyebrow">Foco en tus metas</span>
+					</p>
+					<h2 data-i18n="audience.heading">¿Para quién es Bolsi?</h2>
+					<p data-i18n="audience.subheading">Diseñada para personas reales con vidas ocupadas</p>
+				</div>
+				
+				<div class="audience-cards">
+					<div class="audience-card">
+						<div class="audience-card-icon">
+							<i class="fas fa-seedling"></i>
+						</div>
+						<h3 data-i18n="audience.beginners.title">Principiantes en finanzas</h3>
+						<p data-i18n="audience.beginners.description">¿Quieres empezar a ahorrar pero no sabes por dónde? Bolsi te guía paso a paso sin tecnicismos.</p>
+					</div>
+					
+					<div class="audience-card">
+						<div class="audience-card-icon">
+							<i class="fas fa-users"></i>
+						</div>
+						<h3 data-i18n="audience.families.title">Familias y parejas</h3>
+						<p data-i18n="audience.families.description">Compartes gastos con pareja, familia o roomies? Sincroniza todo en tiempo real sin complicaciones.</p>
+					</div>
+					
+					<div class="audience-card">
+						<div class="audience-card-icon">
+							<i class="fas fa-graduation-cap"></i>
+						</div>
+						<h3 data-i18n="audience.students.title">Estudiantes y freelancers</h3>
+						<p data-i18n="audience.students.description">Presupuesto ajustado? Controla cada peso con una app que respeta tu tiempo y tu bolsillo.</p>
+					</div>
+					
+					<div class="audience-card">
+						<div class="audience-card-icon">
+							<i class="fas fa-bolt"></i>
+						</div>
+						<h3 data-i18n="audience.power.title">Usuarios exigentes</h3>
+						<p data-i18n="audience.power.description">¿Harto de apps complicadas? Bolsi es velocidad pura: registra gastos en menos de 10 segundos.</p>
+					</div>
+				</div>
+				
+				<div class="audience-cta">
+					<h3 data-i18n="audience.highlight">¡Descarga Bolsi hoy y haz las paces con tu dinero!</h3>
+					<a class="btn primary btn-lg" href="https://play.google.com/store/apps/details?id=com.gastosmensuales.app" target="_blank" rel="noopener" data-i18n="audience.ctaButton">
+						<i class="fab fa-google-play me-2"></i> Descargar Gratis
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="download" class="section cta">
+			<div class="container cta-card">
+				<div class="cta-content">
+					<p class="eyebrow">
+						<span class="icon icon-rocket" aria-hidden="true"><svg><use href="#icon-rocket"></use></svg></span>
+						<span data-i18n="cta.eyebrow">Empieza gratis</span>
+					</p>
+					<h2 data-i18n="cta.heading">Haz las paces con tu dinero</h2>
+					<p data-i18n="cta.subheading">Instala Bolsi y controla cada peso, dólar o real desde el celular.</p>
+					<div class="cta-actions">
+						<a class="btn primary btn-lg" href="https://play.google.com/store/apps/details?id=com.gastosmensuales.app" target="_blank" rel="noopener" data-i18n="cta.primary">
+							<i class="fab fa-google-play me-2"></i> Descargar en Google Play
+						</a>
+						<small data-i18n="cta.footnote">Gratis para Android. Sin costo inicial.</small>
+					</div>
+				</div>
+				<div class="cta-character">
+					<img src="assets/images/bolsi-fuerte.png" alt="Bolsi fuerte y motivado" class="bolsi-strong animate-pulse" loading="lazy" />
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-grid">
+			<p data-i18n="footer.rights">© 2025 Bolsi. Todos los derechos reservados.</p>
+			<div class="footer-links">
+				<a href="privacy-policy.html" data-i18n="footer.privacy">Política de privacidad</a>
+				<a href="delete-account.html" data-i18n="footer.deleteAccount">Eliminar cuenta</a>
+				<a href="mailto:bolsi@altrion-tech.com" data-i18n="footer.contact">Contacto</a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Bootstrap JS Bundle -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	
+	<script src="assets/js/translations.js"></script>
+	<script src="assets/js/app.js" defer></script>
+</body>
+
+</html>
