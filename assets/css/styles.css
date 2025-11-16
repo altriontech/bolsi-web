@@ -2221,7 +2221,7 @@ a {
   font-size: 0.95rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .main-nav {
     display: none;
   }
@@ -2246,6 +2246,17 @@ a {
   
   .bolsi-strong {
     width: 160px;
+  }
+  
+  .hero-visual {
+    margin-bottom: 3rem;
+  }
+  
+  .stat-card {
+    bottom: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 300px;
   }
 }
 
@@ -2276,6 +2287,15 @@ a {
   
   .bolsi-thinking {
     width: 120px;
+  }
+  
+  .stat-card {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin: 2rem auto 0;
+    max-width: 100%;
   }
 
   .cta-card {
