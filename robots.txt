@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bolsi.altrion-tech.com/sitemap.xml
+
+# Key pages
+Allow: /index.html
+Allow: /privacy-policy.html
+Allow: /delete-account.html
+Allow: /*?lang=
+
+# Assets
+Allow: /assets/
+
+# Sensitive files
+Disallow: /firebase.json
+Disallow: /*.json$
