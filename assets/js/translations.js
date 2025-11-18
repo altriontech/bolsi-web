@@ -136,6 +136,18 @@
           {
             question: '¿Funciona en varios países?',
             answer: 'Sí. Soporta múltiples monedas, contextos personales o grupales y se sincroniza en la nube.'
+          },
+          {
+            question: '¿Es gratis?',
+            answer: 'Sí, Bolsi es completamente gratuita. Todas las funciones principales están disponibles sin costo.'
+          },
+          {
+            question: '¿Mis datos están seguros?',
+            answer: 'Absolutamente. Usamos Firebase con cifrado de extremo a extremo. Nadie más que tú tiene acceso a tu información financiera.'
+          },
+          {
+            question: '¿Puedo usarla sin conexión?',
+            answer: 'Sí, puedes registrar gastos sin conexión y se sincronizarán automáticamente cuando vuelvas a tener internet.'
           }
         ]
       },
@@ -516,6 +528,18 @@
           {
             question: 'Is it available worldwide?',
             answer: 'Yes. Multiple currencies, personal or group contexts and cloud sync.'
+          },
+          {
+            question: 'Is it free?',
+            answer: 'Yes, Bolsi is completely free. All main features are available at no cost.'
+          },
+          {
+            question: 'Is my data secure?',
+            answer: 'Absolutely. We use Firebase with end-to-end encryption. Only you have access to your financial information.'
+          },
+          {
+            question: 'Can I use it offline?',
+            answer: 'Yes, you can record expenses offline and they will sync automatically when you reconnect to the internet.'
           }
         ]
       },
@@ -896,6 +920,18 @@
           {
             question: 'Funciona em vários países?',
             answer: 'Sim. Multi-moeda, contextos pessoais ou em grupo e nuvem segura.'
+          },
+          {
+            question: 'É grátis?',
+            answer: 'Sim, Bolsi é completamente gratuito. Todas as funcionalidades principais estão disponíveis sem custo.'
+          },
+          {
+            question: 'Meus dados estão seguros?',
+            answer: 'Absolutamente. Usamos Firebase com criptografia ponta a ponta. Apenas você tem acesso às suas informações financeiras.'
+          },
+          {
+            question: 'Posso usar sem conexão?',
+            answer: 'Sim, você pode registrar gastos offline e eles sincronizarão automaticamente quando você voltar a ter internet.'
           }
         ]
       },
