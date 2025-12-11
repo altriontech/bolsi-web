@@ -65,12 +65,12 @@ function updateLanguageSelector(lang) {
 }
 
 function applyTranslations(lang) {
-  if (!window.BolsiTranslations || !window.BolsiTranslations[lang]) {
+  if (!window.BolsiTranslations || !window.BolsiTranslations.translations || !window.BolsiTranslations.translations[lang]) {
     console.error('Translations not found for language:', lang);
     return;
   }
   
-  const translations = window.BolsiTranslations[lang].delete;
+  const translations = window.BolsiTranslations.translations[lang];
   
   // Apply translations to all elements with data-i18n attribute
   document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -79,10 +79,17 @@ function applyTranslations(lang) {
     
     // Navigate through the translation object
     let translation = translations;
-    for (const k of keys.slice(1)) { // Skip 'delete' prefix as we already have it
+    for (const k of keys) {
       if (translation && translation[k]) {
         translation = translation[k];
       } else {
+        // Fallback for old behavior (implicit 'delete' prefix) if not found at root
+        // This is to support existing keys in delete-account.html if any were written without 'delete.' prefix
+        // But checking the file, they seem to be prefixed with 'delete.' or 'brand.'
+        // Only exceptions might be keys that assumed the old context.
+        // Let's assume keys are fully qualified now or properly prefixed.
+        // However, looking at delete-account.html: data-i18n="delete.section1.title"
+        // So the key is fully qualified if we start from root.
         console.warn('Translation not found for key:', key);
         return;
       }

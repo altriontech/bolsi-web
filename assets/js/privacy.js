@@ -95,7 +95,7 @@
     document.documentElement.lang = translationLang;
     
     // Update meta tags
-    document.title = `${t.hero.title} - Bolsi`;
+    document.title = `${t.hero.title} - ${translations.brand.name}`;
     
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(element => {

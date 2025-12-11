@@ -4,13 +4,14 @@
   const translations = {
     es: {
       meta: {
-        title: 'Bolsi | Gastos y presupuesto sin complicaciones',
-        description: 'Bolsi es la app más amigable para controlar gastos, compartir presupuestos y ahorrar cada mes.'
+        title: 'Gastos Mensuales y Presupuesto | Gastos y presupuesto sin complicaciones',
+        description: 'Gastos Mensuales y Presupuesto es la app más amigable para controlar gastos, compartir presupuestos y ahorrar cada mes.'
       },
       common: {
         skipLink: 'Saltar al contenido principal'
       },
       brand: {
+        name: 'Gastos Mensuales y Presupuesto',
         tagline: 'Gastos y presupuesto sin complicaciones'
       },
       users: '10+ descargas reales en Google Play',
@@ -25,8 +26,8 @@
       },
       hero: {
         eyebrow: 'Finanzas claras, decisiones inteligentes',
-        title: 'Bolsi: Gastos y presupuesto sin complicaciones',
-        description: '¿Cansado de no saber a dónde se va tu dinero? Con Bolsi registras gastos en segundos, compartes con quien quieras y ves alertas antes de pasarte.',
+        title: 'Gastos Mensuales y Presupuesto: Gastos y presupuesto sin complicaciones',
+        description: '¿Cansado de no saber a dónde se va tu dinero? Con Gastos Mensuales y Presupuesto registras gastos en segundos, compartes con quien quieras y ves alertas antes de pasarte.',
         ctaPrimary: 'Descargar en Google Play',
         ctaSecondary: 'Ver video demo',
         trust: 'Disponible para Android. Sincroniza en tiempo real.',
@@ -36,7 +37,7 @@
       },
       benefits: {
         eyebrow: 'Primero, los beneficios',
-        heading: '¿Por qué Bolsi es tu aliado perfecto?',
+        heading: '¿Por qué Gastos Mensuales y Presupuesto es tu aliado perfecto?',
         subheading: 'Te ayudamos a usar la app todos los días con una experiencia realmente amigable.',
         cards: [
           {
@@ -109,7 +110,7 @@
         subheading: 'Configurar tu control de gastos es tan simple que empezarás en menos de 2 minutos.',
         step1: {
           title: 'Crea tus gastos fijos',
-          description: 'Define tus gastos mensuales como alquiler, servicios, suscripciones. Bolsi los recordará automáticamente.'
+          description: 'Define tus gastos mensuales como alquiler, servicios, suscripciones. Gastos Mensuales y Presupuesto los recordará automáticamente.'
         },
         step2: {
           title: 'Registra tus movimientos',
@@ -127,11 +128,11 @@
       faq: {
         eyebrow: 'Preguntas frecuentes',
         heading: 'Resolvemos tus dudas en segundos',
-        subheading: 'Bolsi está diseñada para acompañarte sin curvas de aprendizaje.',
+        subheading: 'Gastos Mensuales y Presupuesto está diseñada para acompañarte sin curvas de aprendizaje.',
         items: [
           {
             question: '¿Necesito ser experto en finanzas?',
-            answer: 'No. Bolsi guía cada paso con textos claros, notificaciones y plantillas listas.'
+            answer: 'No. Gastos Mensuales y Presupuesto guía cada paso con textos claros, notificaciones y plantillas listas.'
           },
           {
             question: '¿Funciona en varios países?',
@@ -139,7 +140,7 @@
           },
           {
             question: '¿Es gratis?',
-            answer: 'Sí, Bolsi es completamente gratuita. Todas las funciones principales están disponibles sin costo.'
+            answer: 'Sí, Gastos Mensuales y Presupuesto es completamente gratuita. Todas las funciones principales están disponibles sin costo.'
           },
           {
             question: '¿Mis datos están seguros?',
@@ -153,11 +154,11 @@
       },
       audience: {
         eyebrow: 'Foco en tus metas',
-        heading: 'Bolsi es perfecto para ti si...',
-        subheading: 'Sin importar si ahorras solo, en pareja o en familia, Bolsi se adapta a tu ritmo.',
+        heading: 'Gastos Mensuales y Presupuesto es perfecto para ti si...',
+        subheading: 'Sin importar si ahorras solo, en pareja o en familia, Gastos Mensuales y Presupuesto se adapta a tu ritmo.',
         beginners: {
           title: 'Principiantes en finanzas',
-          description: '¿Quieres empezar a ahorrar pero no sabes por dónde? Bolsi te guía paso a paso sin tecnicismos.'
+          description: '¿Quieres empezar a ahorrar pero no sabes por dónde? Gastos Mensuales y Presupuesto te guía paso a paso sin tecnicismos.'
         },
         families: {
           title: 'Familias y parejas',
@@ -169,21 +170,21 @@
         },
         power: {
           title: 'Usuarios exigentes',
-          description: '¿Harto de apps complicadas? Bolsi es velocidad pura: registra gastos en menos de 10 segundos.'
+          description: '¿Harto de apps complicadas? Gastos Mensuales y Presupuesto es velocidad pura: registra gastos en menos de 10 segundos.'
         },
-        highlight: '¡Descarga Bolsi hoy y haz las paces con tu dinero!',
+        highlight: '¡Descarga Gastos Mensuales y Presupuesto hoy y haz las paces con tu dinero!',
         ctaButton: 'Descargar Gratis'
       },
       cta: {
         eyebrow: 'Empieza gratis',
         heading: 'Haz las paces con tu dinero',
-        subheading: 'Instala Bolsi y controla cada peso, dólar o real desde el celular.',
+        subheading: 'Instala Gastos Mensuales y Presupuesto y controla cada peso, dólar o real desde el celular.',
         primary: 'Descargar en Google Play',
         secondary: 'Recibir novedades',
         footnote: 'Gratis para Android. Sin costo inicial.'
       },
       footer: {
-        rights: '© 2025 Bolsi. Todos los derechos reservados.',
+        rights: '© 2025 Gastos Mensuales y Presupuesto. Todos los derechos reservados.',
         privacy: 'Política de privacidad',
         deleteAccount: 'Eliminar cuenta',
         terms: 'Términos de uso',
@@ -200,9 +201,9 @@
         },
         section1: {
           title: '1. Introducción',
-          p1: 'Bienvenido a <strong>Bolsi</strong>. Esta aplicación es desarrollada y mantenida por Altrion Tech ("nosotros", "nuestro" o "nos"). Nos comprometemos a proteger tu privacidad y a ser transparentes sobre cómo recopilamos, usamos y protegemos tu información personal.',
+          p1: 'Bienvenido a <strong>Gastos Mensuales y Presupuesto</strong>. Esta aplicación es desarrollada y mantenida por Altrion Tech ("nosotros", "nuestro" o "nos"). Nos comprometemos a proteger tu privacidad y a ser transparentes sobre cómo recopilamos, usamos y protegemos tu información personal.',
           p2: 'Esta Política de Privacidad explica qué información recopilamos, cómo la usamos, con quién la compartimos y cuáles son tus derechos respecto a tu información personal.',
-          important: '<strong>Importante:</strong> Al usar Bolsi, aceptas los términos descritos en esta Política de Privacidad. Si no estás de acuerdo, por favor no uses la aplicación.'
+          important: '<strong>Importante:</strong> Al usar Gastos Mensuales y Presupuesto, aceptas los términos descritos en esta Política de Privacidad. Si no estás de acuerdo, por favor no uses la aplicación.'
         },
         section2: {
           title: '2. Información que Recopilamos',
@@ -276,7 +277,7 @@
         },
         section9: {
           title: '9. Menores de Edad',
-          intro: '<strong>Bolsi NO está dirigida a menores de 13 años.</strong>',
+          intro: '<strong>Gastos Mensuales y Presupuesto NO está dirigida a menores de 13 años.</strong>',
           item1: 'No recopilamos intencionalmente información de niños menores de 13 años',
           item2: 'Si descubrimos que hemos recopilado información de un menor de 13 años, la eliminaremos inmediatamente',
           item3: 'Si eres padre/madre/tutor y crees que tu hijo nos ha proporcionado información, contáctanos'
@@ -318,7 +319,7 @@
         section2: {
           title: '<i class="fas fa-lock"></i> Cómo Eliminar tu Cuenta',
           option1Title: 'Opción 1: Desde la Aplicación (Recomendado)',
-          step1: 'Abre la app <strong>Bolsi</strong>',
+          step1: 'Abre la app <strong>Gastos Mensuales y Presupuesto</strong>',
           step2: 'Ve a <strong>Configuración</strong> (ícono de engranaje)',
           step3: 'Desplázate hasta la sección <strong>"Cuenta"</strong>',
           step4: 'Toca en <strong>"Eliminar Cuenta"</strong>',
@@ -329,7 +330,7 @@
           option2Intro: 'Si no puedes acceder a la aplicación o prefieres eliminar tu cuenta por correo electrónico, envíanos un email con la siguiente información:',
           emailButton: 'Enviar Solicitud de Eliminación',
           emailInfoTitle: '<i class="fas fa-info-circle"></i> Información Necesaria para la Solicitud por Email',
-          emailInfo1: 'Email registrado en tu cuenta de Bolsi',
+          emailInfo1: 'Email registrado en tu cuenta de Gastos Mensuales y Presupuesto',
           emailInfo2: 'Confirmación de que entiendes que la eliminación es permanente',
           emailInfo3: 'Razón de la eliminación (opcional pero nos ayuda a mejorar)'
         },
@@ -356,7 +357,7 @@
           retention2: '• Registros de Suscripción Premium:',
           retention2desc: 'Conservado por <strong>90 días</strong> después de la eliminación (para resolver disputas de pago)',
           retention3: '• Datos Agregados y Anonimizados:',
-          retention3desc: 'Pueden conservarse indefinidamente para análisis estadísticos (sin información personal identificable)',
+          retention3desc: 'Pueden conservarse indefinidamente para análisis estadísticos (sem información personal identificable)',
           retention4: '• Logs de Seguridad:',
           retention4desc: 'Conservados por <strong>6 meses</strong> (para prevenir fraude y abuso)',
           note: 'Nota: Estos datos conservados están en formato cifrado y no son accesibles ni visibles para ti ni para otros usuarios. Se utilizan únicamente para cumplir con obligaciones legales.'
@@ -399,17 +400,18 @@
     },
     en: {
       meta: {
-        title: 'Bolsi | Friendly budgeting for everyday people',
-        description: 'Track expenses, share budgets and save money every month with Bolsi.'
+        title: 'Monthly Expenses and Budget | Friendly budgeting for everyday people',
+        description: 'Track expenses, share budgets and save money every month with Monthly Expenses and Budget.'
       },
       common: {
         skipLink: 'Skip to main content'
       },
       brand: {
+        name: 'Monthly Expenses and Budget',
         tagline: 'Smart money tracking'
       },
       nav: {
-        why: 'Why Bolsi',
+        why: 'Why choose us',
         features: 'Features',
         audience: 'For whom',
         faq: 'FAQs',
@@ -417,8 +419,8 @@
       },
       hero: {
         eyebrow: 'Clear finances, smarter moves',
-        title: 'Bolsi: friendly budgeting without the stress',
-        description: 'Tired of messy spreadsheets? Bolsi lets you log expenses in seconds, share with anyone and stay on budget with gentle alerts.',
+        title: 'Monthly Expenses and Budget: friendly budgeting without the stress',
+        description: 'Tired of messy spreadsheets? Monthly Expenses and Budget lets you log expenses in seconds, share with anyone and stay on budget with gentle alerts.',
         ctaPrimary: 'Get on Google Play',
         ctaSecondary: 'Watch demo',
         trust: 'Available on Android. Syncs instantly.',
@@ -428,7 +430,7 @@
       },
       benefits: {
         eyebrow: 'Benefits first',
-        heading: 'Why Bolsi is your perfect money buddy',
+        heading: 'Why Monthly Expenses and Budget is your perfect money buddy',
         subheading: 'We deliver value before features so you keep using it every day.',
         cards: [
           {
@@ -501,7 +503,7 @@
         subheading: 'Setting up your expense tracking is so simple you\'ll start in less than 2 minutes.',
         step1: {
           title: 'Create your fixed expenses',
-          description: 'Define your monthly expenses like rent, utilities, subscriptions. Bolsi will remember them automatically.'
+          description: 'Define your monthly expenses like rent, utilities, subscriptions. Monthly Expenses and Budget will remember them automatically.'
         },
         step2: {
           title: 'Record your movements',
@@ -519,11 +521,11 @@
       faq: {
         eyebrow: 'FAQ',
         heading: 'Answers in plain language',
-        subheading: 'Bolsi guides you step by step with no finance degree required.',
+        subheading: 'Monthly Expenses and Budget guides you step by step with no finance degree required.',
         items: [
           {
             question: 'Do I need finance experience?',
-            answer: 'No. Bolsi explains every step with clear copy and ready-made templates.'
+            answer: 'No. Monthly Expenses and Budget explains every step with clear copy and ready-made templates.'
           },
           {
             question: 'Is it available worldwide?',
@@ -531,7 +533,7 @@
           },
           {
             question: 'Is it free?',
-            answer: 'Yes, Bolsi is completely free. All main features are available at no cost.'
+            answer: 'Yes, Monthly Expenses and Budget is completely free. All main features are available at no cost.'
           },
           {
             question: 'Is my data secure?',
@@ -545,11 +547,11 @@
       },
       audience: {
         eyebrow: 'Focus on your goals',
-        heading: 'Bolsi is perfect if you...',
-        subheading: 'Whether you save solo, with a partner or family, Bolsi adapts to you.',
+        heading: 'Monthly Expenses and Budget is perfect if you...',
+        subheading: 'Whether you save solo, with a partner or family, Monthly Expenses and Budget adapts to you.',
         beginners: {
           title: 'Finance beginners',
-          description: 'Want to start saving but don\'t know where to begin? Bolsi guides you step by step without jargon.'
+          description: 'Want to start saving but don\'t know where to begin? Monthly Expenses and Budget guides you step by step without jargon.'
         },
         families: {
           title: 'Families & couples',
@@ -561,21 +563,21 @@
         },
         power: {
           title: 'Power users',
-          description: 'Tired of complicated apps? Bolsi is pure speed: log expenses in under 10 seconds.'
+          description: 'Tired of complicated apps? Monthly Expenses and Budget is pure speed: log expenses in under 10 seconds.'
         },
-        highlight: 'Download Bolsi today and make peace with your money!',
+        highlight: 'Download Monthly Expenses and Budget today and make peace with your money!',
         ctaButton: 'Download Free'
       },
       cta: {
         eyebrow: 'Start for free',
         heading: 'Make peace with your money',
-        subheading: 'Install Bolsi and control every peso, dollar or real from your phone.',
+        subheading: 'Install Monthly Expenses and Budget and control every peso, dollar or real from your phone.',
         primary: 'Get on Google Play',
         secondary: 'Get product updates',
         footnote: 'Free for Android. No upfront cost.'
       },
       footer: {
-        rights: '© 2025 Bolsi. All rights reserved.',
+        rights: '© 2025 Monthly Expenses and Budget. All rights reserved.',
         privacy: 'Privacy policy',
         deleteAccount: 'Delete account',
         terms: 'Terms of use',
@@ -592,9 +594,9 @@
         },
         section1: {
           title: '1. Introduction',
-          p1: 'Welcome to <strong>Bolsi</strong>. This application is developed and maintained by Altrion Tech ("we", "our" or "us"). We are committed to protecting your privacy and being transparent about how we collect, use and protect your personal information.',
+          p1: 'Welcome to <strong>Monthly Expenses and Budget</strong>. This application is developed and maintained by Altrion Tech ("we", "our" or "us"). We are committed to protecting your privacy and being transparent about how we collect, use and protect your personal information.',
           p2: 'This Privacy Policy explains what information we collect, how we use it, who we share it with and what your rights are regarding your personal information.',
-          important: '<strong>Important:</strong> By using Bolsi, you accept the terms described in this Privacy Policy. If you do not agree, please do not use the application.'
+          important: '<strong>Important:</strong> By using Monthly Expenses and Budget, you accept the terms described in this Privacy Policy. If you do not agree, please do not use the application.'
         },
         section2: {
           title: '2. Information We Collect',
@@ -668,7 +670,7 @@
         },
         section9: {
           title: '9. Minors',
-          intro: '<strong>Bolsi is NOT directed at children under 13 years old.</strong>',
+          intro: '<strong>Monthly Expenses and Budget is NOT directed at children under 13 years old.</strong>',
           item1: 'We do not intentionally collect information from children under 13',
           item2: 'If we discover we have collected information from a minor under 13, we will delete it immediately',
           item3: 'If you are a parent/guardian and believe your child has provided us with information, contact us'
@@ -710,7 +712,7 @@
         section2: {
           title: '<i class="fas fa-lock"></i> How to Delete Your Account',
           option1Title: 'Option 1: From the App (Recommended)',
-          step1: 'Open the <strong>Bolsi</strong> app',
+          step1: 'Open the <strong>Monthly Expenses and Budget</strong> app',
           step2: 'Go to <strong>Settings</strong> (gear icon)',
           step3: 'Scroll down to the <strong>"Account"</strong> section',
           step4: 'Tap on <strong>"Delete Account"</strong>',
@@ -721,7 +723,7 @@
           option2Intro: 'If you cannot access the app or prefer to delete your account via email, send us an email with the following information:',
           emailButton: 'Send Deletion Request',
           emailInfoTitle: '<i class="fas fa-info-circle"></i> Information Needed for Email Request',
-          emailInfo1: 'Email registered in your Bolsi account',
+          emailInfo1: 'Email registered in your Monthly Expenses and Budget account',
           emailInfo2: 'Confirmation that you understand the deletion is permanent',
           emailInfo3: 'Reason for deletion (optional but helps us improve)'
         },
@@ -732,7 +734,7 @@
           item1desc: 'Email, password and profile',
           item2: '<i class="fas fa-check"></i> Financial Data:',
           item2desc: 'All expenses, fixed payments and recorded transactions',
-          item3: '<i class="fas fa-check"></i> Groups/Contexts:',
+          item3: '<i class="fas fa-check"></i> Groups/Contextos:',
           item3desc: 'All groups you have created and their associated data',
           item4: '<i class="fas fa-check"></i> Settings:',
           item4desc: 'All your preferences and app settings',
@@ -791,13 +793,14 @@
     },
     pt: {
       meta: {
-        title: 'Bolsi | Gastos e orçamento sem complicações',
-        description: 'Controle despesas, compartilhe orçamentos e economize todo mês com Bolsi.'
+        title: 'Gastos Mensais e Orçamento | Gastos e orçamento sem complicações',
+        description: 'Controle despesas, compartilhe orçamentos e economize todo mês com Gastos Mensais e Orçamento.'
       },
       common: {
         skipLink: 'Ir para o conteúdo principal'
       },
       brand: {
+        name: 'Gastos Mensais e Orçamento',
         tagline: 'Finanças inteligentes'
       },
       nav: {
@@ -809,8 +812,8 @@
       },
       hero: {
         eyebrow: 'Finanças claras, decisões inteligentes',
-        title: 'Bolsi: orçamento amigável para o dia a dia',
-        description: 'Chega de planilhas confusas. Com Bolsi você registra gastos em segundos, divide com quem quiser e recebe alertas antes de estourar o orçamento.',
+        title: 'Gastos Mensais e Orçamento: orçamento amigável para o dia a dia',
+        description: 'Chega de planilhas confusas. Com Gastos Mensais e Orçamento você registra gastos em segundos, divide com quem quiser e recebe alertas antes de estourar o orçamento.',
         ctaPrimary: 'Baixar no Google Play',
         ctaSecondary: 'Ver demo',
         trust: 'Disponível para Android com sincronização imediata.',
@@ -820,7 +823,7 @@
       },
       benefits: {
         eyebrow: 'Benefícios primeiro',
-        heading: 'Por que Bolsi é seu aliado perfeito?',
+        heading: 'Por que Gastos Mensais e Orçamento é seu aliado perfeito?',
         subheading: 'Mostramos o valor antes dos recursos para você usar todos os dias.',
         cards: [
           {
@@ -893,7 +896,7 @@
         subheading: 'Configurar seu controle de gastos é tão simples que você começa em menos de 2 minutos.',
         step1: {
           title: 'Crie suas despesas fixas',
-          description: 'Defina seus gastos mensais como aluguel, serviços, assinaturas. Bolsi vai lembrar automaticamente.'
+          description: 'Defina seus gastos mensais como aluguel, serviços, assinaturas. Gastos Mensais e Orçamento vai lembrar automaticamente.'
         },
         step2: {
           title: 'Registre seus movimentos',
@@ -911,11 +914,11 @@
       faq: {
         eyebrow: 'Dúvidas frequentes',
         heading: 'Respondemos rapidinho',
-        subheading: 'Bolsi guia cada etapa sem exigir conhecimento financeiro.',
+        subheading: 'Gastos Mensais e Orçamento guia cada etapa sem exigir conhecimento financeiro.',
         items: [
           {
             question: 'Preciso entender de finanças?',
-            answer: 'Não. Bolsi traz textos claros, lembretes inteligentes e modelos prontos.'
+            answer: 'Não. Gastos Mensais e Orçamento traz textos claros, lembretes inteligentes e modelos prontos.'
           },
           {
             question: 'Funciona em vários países?',
@@ -923,7 +926,7 @@
           },
           {
             question: 'É grátis?',
-            answer: 'Sim, Bolsi é completamente gratuito. Todas as funcionalidades principais estão disponíveis sem custo.'
+            answer: 'Sim, Gastos Mensais e Orçamento é completamente gratuito. Todas as funcionalidades principais estão disponíveis sem custo.'
           },
           {
             question: 'Meus dados estão seguros?',
@@ -937,11 +940,11 @@
       },
       audience: {
         eyebrow: 'Foque nas metas',
-        heading: 'Bolsi é perfeito se você...',
-        subheading: 'Seja para economizar sozinho, em casal ou família, Bolsi acompanha você.',
+        heading: 'Gastos Mensais e Orçamento é perfeito se você...',
+        subheading: 'Seja para economizar sozinho, em casal ou família, Gastos Mensais e Orçamento acompanha você.',
         beginners: {
           title: 'Iniciantes em finanças',
-          description: 'Quer começar a economizar mas não sabe por onde? Bolsi te guia passo a passo sem jargões.'
+          description: 'Quer começar a economizar mas não sabe por onde? Gastos Mensais e Orçamento te guia passo a passo sem jargões.'
         },
         families: {
           title: 'Famílias e casais',
@@ -953,21 +956,21 @@
         },
         power: {
           title: 'Usuários exigentes',
-          description: 'Cansou de apps complicados? Bolsi é velocidade pura: registre gastos em menos de 10 segundos.'
+          description: 'Cansou de apps complicados? Gastos Mensais e Orçamento é velocidade pura: registre gastos em menos de 10 segundos.'
         },
-        highlight: 'Baixe o Bolsi hoje e faça as pazes com o seu dinheiro!',
+        highlight: 'Baixe o Gastos Mensais e Orçamento hoje e faça as pazes com o seu dinheiro!',
         ctaButton: 'Baixar Grátis'
       },
       cta: {
         eyebrow: 'Comece grátis',
         heading: 'Faça as pazes com seu dinheiro',
-        subheading: 'Instale Bolsi e controle cada gasto direto do celular.',
+        subheading: 'Instale Gastos Mensais e Orçamento e controle cada gasto direto do celular.',
         primary: 'Baixar no Google Play',
         secondary: 'Receber novidades',
         footnote: 'Grátis para Android. Sem custo inicial.'
       },
       footer: {
-        rights: '© 2025 Bolsi. Todos os direitos reservados.',
+        rights: '© 2025 Gastos Mensais e Orçamento. Todos os direitos reservados.',
         privacy: 'Política de privacidade',
         deleteAccount: 'Excluir conta',
         terms: 'Termos de uso',
@@ -984,9 +987,9 @@
         },
         section1: {
           title: '1. Introdução',
-          p1: 'Bem-vindo ao <strong>Bolsi</strong>. Esta aplicação é desenvolvida e mantida pela Altrion Tech ("nós", "nosso" ou "nos"). Estamos comprometidos em proteger sua privacidade e ser transparentes sobre como coletamos, usamos e protegemos suas informações pessoais.',
+          p1: 'Bem-vindo ao <strong>Gastos Mensais e Orçamento</strong>. Esta aplicação é desenvolvida e mantida pela Altrion Tech ("nós", "nosso" ou "nos"). Estamos comprometidos em proteger sua privacidade e ser transparentes sobre como coletamos, usamos e protegemos suas informações pessoais.',
           p2: 'Esta Política de Privacidade explica quais informações coletamos, como as usamos, com quem as compartilhamos e quais são seus direitos em relação às suas informações pessoais.',
-          important: '<strong>Importante:</strong> Ao usar o Bolsi, você aceita os termos descritos nesta Política de Privacidade. Se não concordar, por favor não use a aplicação.'
+          important: '<strong>Importante:</strong> Ao usar o Gastos Mensais e Orçamento, você aceita os termos descritos nesta Política de Privacidade. Se não concordar, por favor não use a aplicação.'
         },
         section2: {
           title: '2. Informações que Coletamos',
@@ -1060,7 +1063,7 @@
         },
         section9: {
           title: '9. Menores de Idade',
-          intro: '<strong>Bolsi NÃO é direcionado a menores de 13 anos.</strong>',
+          intro: '<strong>Gastos Mensais e Orçamento NÃO é direcionado a menores de 13 anos.</strong>',
           item1: 'Não coletamos intencionalmente informações de crianças menores de 13 anos',
           item2: 'Se descobrirmos que coletamos informações de um menor de 13 anos, as excluiremos imediatamente',
           item3: 'Se você é pai/mãe/tutor e acredita que seu filho nos forneceu informações, entre em contato'
@@ -1102,7 +1105,7 @@
         section2: {
           title: '<i class="fas fa-lock"></i> Como Excluir Sua Conta',
           option1Title: 'Opção 1: Pelo Aplicativo (Recomendado)',
-          step1: 'Abra o app <strong>Bolsi</strong>',
+          step1: 'Abra o app <strong>Gastos Mensais e Orçamento</strong>',
           step2: 'Vá para <strong>Configurações</strong> (ícone de engrenagem)',
           step3: 'Role até a seção <strong>"Conta"</strong>',
           step4: 'Toque em <strong>"Excluir Conta"</strong>',
@@ -1113,7 +1116,7 @@
           option2Intro: 'Se você não conseguir acessar o aplicativo ou preferir excluir sua conta por email, envie-nos um email com as seguintes informações:',
           emailButton: 'Enviar Solicitação de Exclusão',
           emailInfoTitle: '<i class="fas fa-info-circle"></i> Informações Necessárias para Solicitação por Email',
-          emailInfo1: 'Email registrado na sua conta Bolsi',
+          emailInfo1: 'Email registrado na sua conta Gastos Mensais e Orçamento',
           emailInfo2: 'Confirmação de que você entende que a exclusão é permanente',
           emailInfo3: 'Motivo da exclusão (opcional mas nos ajuda a melhorar)'
         },
