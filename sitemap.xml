@@ -68,4 +68,37 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/delete-account.html?lang=en" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/delete-account.html?lang=pt" />
   </url>
+
+  <!-- Blog Post: como-crear-un-fondo-de-emergencia-desde-cero -->
+  <url>
+    <loc>https://bolsi.altrion-tech.com/blog/como-crear-un-fondo-de-emergencia-desde-cero</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/blog/como-crear-un-fondo-de-emergencia-desde-cero?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/blog/como-crear-un-fondo-de-emergencia-desde-cero?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/blog/como-crear-un-fondo-de-emergencia-desde-cero?lang=pt" />
+  </url>
+
+  <!-- Blog Post: 7-errores-de-presupuesto-que-arruinan-tu-ahorro -->
+  <url>
+    <loc>https://bolsi.altrion-tech.com/blog/7-errores-de-presupuesto-que-arruinan-tu-ahorro</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/blog/7-errores-de-presupuesto-que-arruinan-tu-ahorro?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/blog/7-errores-de-presupuesto-que-arruinan-tu-ahorro?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/blog/7-errores-de-presupuesto-que-arruinan-tu-ahorro?lang=pt" />
+  </url>
+
+  <!-- Blog Post: gastos-hormiga-el-enemigo-invisible-de-tu-ahorro -->
+  <url>
+    <loc>https://bolsi.altrion-tech.com/blog/gastos-hormiga-el-enemigo-invisible-de-tu-ahorro</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/blog/gastos-hormiga-el-enemigo-invisible-de-tu-ahorro?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/blog/gastos-hormiga-el-enemigo-invisible-de-tu-ahorro?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/blog/gastos-hormiga-el-enemigo-invisible-de-tu-ahorro?lang=pt" />
+  </url>
 </urlset>
