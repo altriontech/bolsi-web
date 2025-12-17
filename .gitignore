@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+sanity-blog/node_modules/
+
+# Sanity
+sanity-blog/.sanity/
+sanity-blog/dist/
+
+# Build outputs
+.cache/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
