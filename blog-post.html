@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Bolsi App" />
+    <meta name="theme-color" content="#0b80bd" />
+
+    <!-- SEO - Will be updated dynamically -->
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://bolsi.altrion-tech.com/blog" />
+
+    <!-- Open Graph - Will be updated dynamically -->
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Bolsi Blog" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/images/gm-logov1.png"
+      sizes="48x48"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/assets/images/gm-logov1.png"
+      sizes="180x180"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap-custom.css" />
+    <link rel="stylesheet" href="/assets/css/blog.css" />
+
+    <title>Blog | Bolsi</title>
+  </head>
+
+  <body>
+    <header class="site-header fixed-top" id="top">
+      <nav class="navbar navbar-expand-xl navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand brand" href="/" aria-label="Bolsi">
+            <img
+              src="/assets/images/gm-logov1.png"
+              width="48"
+              height="48"
+              alt="Bolsi logo"
+              class="d-inline-block align-text-top"
+              fetchpriority="high"
+              decoding="async"
+              loading="eager"
+            />
+            <div class="d-inline-block ms-2">
+              <span class="brand-title d-block">Bolsi</span>
+              <span class="brand-tagline d-block" data-i18n="brand.tagline"
+                >Gastos y presupuesto</span
+              >
+            </div>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-xl-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/#benefits" data-i18n="nav.why"
+                  >Por qué elegirnos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#features" data-i18n="nav.features"
+                  >Funciones</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog" data-i18n="blog.title">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#faq" data-i18n="nav.faq">FAQs</a>
+              </li>
+            </ul>
+
+            <div class="d-flex align-items-center gap-2">
+              <div
+                class="btn-group lang-switch"
+                role="group"
+                aria-label="Cambiar idioma"
+              >
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary lang-btn active"
+                  data-lang="es"
+                >
+                  ES
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary lang-btn"
+                  data-lang="en"
+                >
+                  EN
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary lang-btn"
+                  data-lang="pt"
+                >
+                  PT
+                </button>
+              </div>
+              <a
+                class="btn btn-primary"
+                href="https://play.google.com/store/apps/details?id=com.gastosmensuales.app"
+                data-i18n="nav.download"
+                >Descargar</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Post Content -->
+      <article class="blog-post" id="blogPost">
+        <!-- Loading State -->
+        <div class="blog-post-loading" id="postLoading">
+          <div class="container">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Cargando...</span>
+            </div>
+            <p data-i18n="blog.loading">Cargando artículo...</p>
+          </div>
+        </div>
+
+        <!-- Post Header - Populated dynamically -->
+        <header class="blog-post-header" id="postHeader" style="display: none">
+          <div class="container">
+            <a href="/blog" class="blog-back-link">
+              <i class="fas fa-arrow-left"></i>
+              <span data-i18n="blog.backToBlog">Volver al blog</span>
+            </a>
+            <div class="blog-post-meta">
+              <span class="blog-post-date" id="postDate"></span>
+              <div class="blog-post-categories" id="postCategories"></div>
+            </div>
+            <h1 class="blog-post-title" id="postTitle"></h1>
+            <p class="blog-post-excerpt" id="postExcerpt"></p>
+          </div>
+        </header>
+
+        <!-- Featured Image -->
+        <div
+          class="blog-post-image-container"
+          id="postImageContainer"
+          style="display: none"
+        >
+          <div class="container">
+            <img class="blog-post-image" id="postImage" src="" alt="" />
+          </div>
+        </div>
+
+        <!-- Post Body - Rendered from Portable Text -->
+        <div class="blog-post-body" id="postBody" style="display: none">
+          <div class="container">
+            <div class="blog-post-content" id="postContent">
+              <!-- Content rendered here -->
+            </div>
+
+            <!-- Author Info -->
+            <div class="blog-post-author" id="postAuthor" style="display: none">
+              <img class="author-avatar" id="authorAvatar" src="" alt="" />
+              <div class="author-info">
+                <span class="author-label" data-i18n="blog.writtenBy"
+                  >Escrito por</span
+                >
+                <span class="author-name" id="authorName"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Not Found State -->
+        <div
+          class="blog-post-not-found"
+          id="postNotFound"
+          style="display: none"
+        >
+          <div class="container">
+            <i class="fas fa-file-excel"></i>
+            <h2 data-i18n="blog.postNotFound">Artículo no encontrado</h2>
+            <p data-i18n="blog.postNotFoundDescription">
+              El artículo que buscas no existe o ha sido eliminado.
+            </p>
+            <a href="/blog" class="btn btn-primary" data-i18n="blog.backToBlog"
+              >Volver al blog</a
+            >
+          </div>
+        </div>
+      </article>
+
+      <!-- Related Posts -->
+      <section class="blog-related" id="blogRelated" style="display: none">
+        <div class="container">
+          <h3 data-i18n="blog.relatedPosts">Artículos relacionados</h3>
+          <div class="blog-grid blog-grid-related" id="relatedGrid">
+            <!-- Related posts loaded dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="blog-cta">
+        <div class="container">
+          <div class="blog-cta-card">
+            <div class="blog-cta-content">
+              <h2 data-i18n="blog.ctaTitle">
+                ¿Listo para controlar tus gastos?
+              </h2>
+              <p data-i18n="blog.ctaDescription">
+                Descarga Bolsi y empieza a ahorrar desde hoy
+              </p>
+              <a
+                class="btn btn-primary btn-lg"
+                href="https://play.google.com/store/apps/details?id=com.gastosmensuales.app"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-google-play me-2"></i>
+                <span data-i18n="blog.ctaButton">Descargar Gratis</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p data-i18n="footer.rights">
+          © 2025 Bolsi. Todos los derechos reservados.
+        </p>
+        <div class="footer-links">
+          <a href="privacy-policy.html" data-i18n="footer.privacy"
+            >Política de privacidad</a
+          >
+          <a href="delete-account.html" data-i18n="footer.deleteAccount"
+            >Eliminar cuenta</a
+          >
+          <a href="mailto:bolsi@altrion-tech.com" data-i18n="footer.contact"
+            >Contacto</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/assets/js/translations.js"></script>
+    <script src="/assets/js/sanity-client.js"></script>
+    <script src="/assets/js/blog-post.js"></script>
+  </body>
+</html>
