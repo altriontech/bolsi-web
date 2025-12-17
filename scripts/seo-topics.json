@@ -57,7 +57,8 @@
       "title_es": "El Método de los Sobres: Presupuesto con Efectivo",
       "title_en": "The Envelope Method: Cash Budgeting That Works",
       "title_pt": "O Método dos Envelopes: Orçamento com Dinheiro",
-      "used": false
+      "used": true,
+      "usedAt": "2025-12-17T03:28:06.370Z"
     },
     {
       "id": "save-low-income",
@@ -70,7 +71,8 @@
       "title_es": "Cómo Ahorrar Ganando Poco: Estrategias Reales",
       "title_en": "How to Save Money on a Low Income: Real Strategies",
       "title_pt": "Como Economizar Ganhando Pouco: Estratégias Reais",
-      "used": false
+      "used": true,
+      "usedAt": "2025-12-17T03:28:55.458Z"
     },
     {
       "id": "financial-goals",
@@ -84,7 +86,8 @@
       "title_es": "Cómo Definir Metas Financieras Realistas",
       "title_en": "How to Set Realistic Financial Goals",
       "title_pt": "Como Definir Metas Financeiras Realistas",
-      "used": false
+      "used": true,
+      "usedAt": "2025-12-17T03:29:47.225Z"
     },
     {
       "id": "shared-expenses",
@@ -98,7 +101,8 @@
       "title_es": "Cómo Dividir Gastos en Pareja sin Conflictos",
       "title_en": "How to Split Expenses with Your Partner Without Conflict",
       "title_pt": "Como Dividir Despesas em Casal sem Conflitos",
-      "used": false
+      "used": true,
+      "usedAt": "2025-12-17T09:55:22.621Z"
     },
     {
       "id": "track-expenses",
@@ -112,7 +116,8 @@
       "title_es": "Por Qué Registrar tus Gastos Cambia tu Vida Financiera",
       "title_en": "Why Tracking Expenses Transforms Your Financial Life",
       "title_pt": "Por Que Registrar Gastos Transforma sua Vida Financeira",
-      "used": false
+      "used": true,
+      "usedAt": "2025-12-17T09:56:18.753Z"
     },
     {
       "id": "pay-yourself-first",
@@ -126,7 +131,8 @@
       "title_es": "Págate Primero: La Regla de Oro del Ahorro",
       "title_en": "Pay Yourself First: The Golden Rule of Saving",
       "title_pt": "Pague-se Primeiro: A Regra de Ouro da Poupança",
-      "used": false
+      "used": true,
+      "usedAt": "2025-12-17T09:57:15.041Z"
     },
     {
       "id": "credit-card-tips",
