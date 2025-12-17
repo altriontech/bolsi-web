@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
   <url>
     <loc>https://bolsi.altrion-tech.com/</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2025-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/?lang=es" />
@@ -12,23 +13,47 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/?lang=pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bolsi.altrion-tech.com/" />
   </url>
+  
+  <!-- Blog Listing -->
+  <url>
+    <loc>https://bolsi.altrion-tech.com/blog</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/blog?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/blog?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/blog?lang=pt" />
+  </url>
+  
+  <!-- Blog Post: Controlar gastos en 5 minutos -->
+  <url>
+    <loc>https://bolsi.altrion-tech.com/blog/como-controlar-tus-gastos-en-5-minutos-al-dia-con-bolsi</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/blog/como-controlar-tus-gastos-en-5-minutos-al-dia-con-bolsi?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/blog/como-controlar-tus-gastos-en-5-minutos-al-dia-con-bolsi?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/blog/como-controlar-tus-gastos-en-5-minutos-al-dia-con-bolsi?lang=pt" />
+  </url>
+  
+  <!-- Privacy Policy -->
   <url>
     <loc>https://bolsi.altrion-tech.com/privacy-policy.html</loc>
     <lastmod>2025-11-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/privacy-policy.html?lang=es" />
-    <xhtml:link rel="alternate" hreflang="es-UY" href="https://bolsi.altrion-tech.com/privacy-policy.html?lang=es" />
     <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/privacy-policy.html?lang=en" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/privacy-policy.html?lang=pt" />
   </url>
+  
+  <!-- Delete Account -->
   <url>
     <loc>https://bolsi.altrion-tech.com/delete-account.html</loc>
     <lastmod>2025-11-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://bolsi.altrion-tech.com/delete-account.html?lang=es" />
-    <xhtml:link rel="alternate" hreflang="es-UY" href="https://bolsi.altrion-tech.com/delete-account.html?lang=es" />
     <xhtml:link rel="alternate" hreflang="en" href="https://bolsi.altrion-tech.com/delete-account.html?lang=en" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bolsi.altrion-tech.com/delete-account.html?lang=pt" />
   </url>

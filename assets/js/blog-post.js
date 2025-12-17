@@ -116,6 +116,80 @@
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical)
       canonical.setAttribute("href", window.location.href.split("?")[0]);
+
+    // Update Schema.org structured data for SEO
+    updateSchemaOrg(post);
+  }
+
+  /**
+   * Update Schema.org JSON-LD for SEO
+   */
+  function updateSchemaOrg(post) {
+    const pageUrl = window.location.href.split("?")[0];
+    const imageUrl = post.mainImage
+      ? SanityClient.imageUrl(post.mainImage, { width: 1200, height: 630 })
+      : "";
+
+    // Update BlogPosting schema
+    const postSchema = document.getElementById("blogPostSchema");
+    if (postSchema) {
+      const schema = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": pageUrl,
+        },
+        headline: post.title,
+        description: post.excerpt || "",
+        image: imageUrl,
+        author: {
+          "@type": post.author ? "Person" : "Organization",
+          name: post.author ? post.author.name : "Bolsi",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Bolsi",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://bolsi.altrion-tech.com/assets/images/gm-logov1.png",
+          },
+        },
+        datePublished: post.publishedAt,
+        dateModified: post.publishedAt,
+      };
+      postSchema.textContent = JSON.stringify(schema);
+    }
+
+    // Update Breadcrumb schema
+    const breadcrumbSchema = document.getElementById("breadcrumbSchema");
+    if (breadcrumbSchema) {
+      const schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Inicio",
+            item: "https://bolsi.altrion-tech.com/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Blog",
+            item: "https://bolsi.altrion-tech.com/blog",
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: post.title,
+            item: pageUrl,
+          },
+        ],
+      };
+      breadcrumbSchema.textContent = JSON.stringify(schema);
+    }
   }
 
   /**
