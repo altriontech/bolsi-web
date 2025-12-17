@@ -1,0 +1,130 @@
+{
+  "topics": [
+    {
+      "id": "emergency-fund",
+      "keywords": ["fondo de emergencia", "emergency fund", "fundo de emergência", "ahorro emergencia", "cuánto ahorrar"],
+      "title_es": "Cómo Crear un Fondo de Emergencia desde Cero",
+      "title_en": "How to Build an Emergency Fund from Scratch",
+      "title_pt": "Como Criar um Fundo de Emergência do Zero",
+      "used": false
+    },
+    {
+      "id": "budget-mistakes",
+      "keywords": ["errores presupuesto", "budget mistakes", "erros orçamento", "fallar ahorrando", "no puedo ahorrar"],
+      "title_es": "7 Errores de Presupuesto que Arruinan tu Ahorro",
+      "title_en": "7 Budget Mistakes That Ruin Your Savings",
+      "title_pt": "7 Erros de Orçamento que Destroem suas Economias",
+      "used": false
+    },
+    {
+      "id": "ant-expenses",
+      "keywords": ["gastos hormiga", "latte factor", "gastos pequeños", "small expenses", "gastos invisibles"],
+      "title_es": "Gastos Hormiga: El Enemigo Invisible de tu Ahorro",
+      "title_en": "Latte Factor: The Invisible Enemy of Your Savings",
+      "title_pt": "Gastos Formiga: O Inimigo Invisível das Economias",
+      "used": false
+    },
+    {
+      "id": "envelope-method",
+      "keywords": ["método sobres", "envelope method", "método envelopes", "cash stuffing", "presupuesto efectivo"],
+      "title_es": "El Método de los Sobres: Presupuesto con Efectivo",
+      "title_en": "The Envelope Method: Cash Budgeting That Works",
+      "title_pt": "O Método dos Envelopes: Orçamento com Dinheiro",
+      "used": false
+    },
+    {
+      "id": "save-low-income",
+      "keywords": ["ahorrar poco dinero", "save low income", "economizar pouco dinheiro", "ahorrar sueldo bajo"],
+      "title_es": "Cómo Ahorrar Ganando Poco: Estrategias Reales",
+      "title_en": "How to Save Money on a Low Income: Real Strategies",
+      "title_pt": "Como Economizar Ganhando Pouco: Estratégias Reais",
+      "used": false
+    },
+    {
+      "id": "financial-goals",
+      "keywords": ["metas financieras", "financial goals", "metas financeiras", "objetivos ahorro", "planificar finanzas"],
+      "title_es": "Cómo Definir Metas Financieras Realistas",
+      "title_en": "How to Set Realistic Financial Goals",
+      "title_pt": "Como Definir Metas Financeiras Realistas",
+      "used": false
+    },
+    {
+      "id": "shared-expenses",
+      "keywords": ["gastos compartidos", "shared expenses", "despesas compartilhadas", "dividir gastos pareja", "roommates expenses"],
+      "title_es": "Cómo Dividir Gastos en Pareja sin Conflictos",
+      "title_en": "How to Split Expenses with Your Partner Without Conflict",
+      "title_pt": "Como Dividir Despesas em Casal sem Conflitos",
+      "used": false
+    },
+    {
+      "id": "track-expenses",
+      "keywords": ["registrar gastos", "track expenses", "controlar gastos", "anotar gastos", "registro financiero"],
+      "title_es": "Por Qué Registrar tus Gastos Cambia tu Vida Financiera",
+      "title_en": "Why Tracking Expenses Transforms Your Financial Life",
+      "title_pt": "Por Que Registrar Gastos Transforma sua Vida Financeira",
+      "used": false
+    },
+    {
+      "id": "pay-yourself-first",
+      "keywords": ["págate primero", "pay yourself first", "pague-se primeiro", "ahorro automático", "automatic savings"],
+      "title_es": "Págate Primero: La Regla de Oro del Ahorro",
+      "title_en": "Pay Yourself First: The Golden Rule of Saving",
+      "title_pt": "Pague-se Primeiro: A Regra de Ouro da Poupança",
+      "used": false
+    },
+    {
+      "id": "credit-card-tips",
+      "keywords": ["usar tarjeta crédito", "credit card tips", "dicas cartão crédito", "no endeudarse tarjeta"],
+      "title_es": "Cómo Usar Tarjetas de Crédito sin Endeudarte",
+      "title_en": "How to Use Credit Cards Without Going into Debt",
+      "title_pt": "Como Usar Cartão de Crédito sem se Endividar",
+      "used": false
+    },
+    {
+      "id": "monthly-budget",
+      "keywords": ["presupuesto mensual", "monthly budget", "orçamento mensal", "planificar mes", "armar presupuesto"],
+      "title_es": "Cómo Crear tu Primer Presupuesto Mensual",
+      "title_en": "How to Create Your First Monthly Budget",
+      "title_pt": "Como Criar seu Primeiro Orçamento Mensal",
+      "used": false
+    },
+    {
+      "id": "save-for-vacation",
+      "keywords": ["ahorrar vacaciones", "save for vacation", "economizar férias", "viaje ahorrando", "travel budget"],
+      "title_es": "Cómo Ahorrar para tus Vacaciones Soñadas",
+      "title_en": "How to Save for Your Dream Vacation",
+      "title_pt": "Como Economizar para as Férias dos Sonhos",
+      "used": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "ahorro",
+      "name_es": "Ahorro",
+      "name_en": "Savings", 
+      "name_pt": "Poupança",
+      "color": "#10B981"
+    },
+    {
+      "id": "presupuesto",
+      "name_es": "Presupuesto",
+      "name_en": "Budgeting",
+      "name_pt": "Orçamento", 
+      "color": "#3B82F6"
+    },
+    {
+      "id": "consejos",
+      "name_es": "Consejos",
+      "name_en": "Tips",
+      "name_pt": "Dicas",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "deudas",
+      "name_es": "Deudas",
+      "name_en": "Debt",
+      "name_pt": "Dívidas",
+      "color": "#EF4444"
+    }
+  ]
+}

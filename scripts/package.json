@@ -1,0 +1,15 @@
+{
+  "name": "bolsi-blog-generator",
+  "version": "1.0.0",
+  "description": "AI-powered blog post generator for Bolsi using Gemini",
+  "main": "generate-posts.js",
+  "scripts": {
+    "generate": "node generate-posts.js",
+    "generate:dry": "node generate-posts.js --dry-run"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@sanity/client": "^6.22.5",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,6 +1,10 @@
 # Dependencies
 node_modules/
 sanity-blog/node_modules/
+scripts/node_modules/
+
+# Environment
+scripts/.env
 
 # Sanity
 sanity-blog/.sanity/
