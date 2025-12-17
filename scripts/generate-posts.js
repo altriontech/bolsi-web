@@ -16,9 +16,9 @@ const CONFIG = {
   dryRun: process.argv.includes("--dry-run"),
 };
 
-// Initialize Gemini
+// Initialize Gemini - using gemini-1.5-pro (more stable quota)
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 // Initialize Sanity client
 const sanityClient = createClient({
